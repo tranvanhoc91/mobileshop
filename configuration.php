@@ -37,35 +37,4 @@ class Config{
 	static $cachetime = '15';
 	static $cache_handler = 'file';
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/* Server Settings */
-	/* Feed Settings */
-	static $root		=	'mobileshop';
-	static $path	=	'http://localhost/mobileshop/';
 }

@@ -1,13 +1,19 @@
 <?php
 define( '_JEXEC', 1 );
 define('DS', DIRECTORY_SEPARATOR);
+
 define('JPATH_BASE', dirname(__FILE__) );
+
+
 define('ROOT', dirname(dirname(__FILE__)));
+
 define('MODULE', 'modules');
 define('COMPONENT', 'components');
 define('TMPL', 'templates');
 
 define('ADMIN', 'admin');
+
+
 
 require_once('configuration.php');
 require_once(ADMIN.'/base/class.request.php');
@@ -23,9 +29,9 @@ require_once 'libraries/functions/system-message.php';
 //require_once 'libraries/functions/readnumber.php';
 
 
+
 $dbo = new Database();
 $uo = new User();
-
 
 /* $uid = $uo->get();
 
@@ -41,6 +47,7 @@ if($format=='json') {
 else $siteDocument = new SiteDocument();
 echo $siteDocument->render();
 
+
 if(!$QUERY_STRING) {
 	// sử dụng điều kiện này để tiếp tục dùng
 	//đường dẫn kiểu truy vấn.
@@ -52,4 +59,8 @@ if(!$QUERY_STRING) {
 	// gán các giá trị tương ứng lấy từ đường dẫn ảo
 	$_REQUEST[view] = $url_array[0];
 }
+
+
+
+
 ?>
