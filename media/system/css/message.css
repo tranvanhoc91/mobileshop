@@ -1,0 +1,69 @@
+/**********Thong bao loi***************/
+
+div#system-message{
+	clear:both;
+	position:relative;
+}	
+div.msg-success{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 8px;
+	background: url("../images//icon-29-success.gif") no-repeat scroll 20px top #C3D2E5;
+	border-bottom: 3px solid #84A7DB;
+	border-top: 3px solid #84A7DB;
+	color: blue;
+}
+
+div.msg-error{
+	width: 100%;
+	height: 29px;
+	background: url("../images//icon-29-error.gif") no-repeat scroll 20px center #E6C0C0;
+	border-bottom: 3px solid #DE7A7B;
+	border-top: 3px solid #DE7A7B;
+	color: #C00;
+}
+
+div.msg-note{
+
+}
+
+span.msg_content{
+	font-weight:bold;
+	padding:0 20px 0 60px;
+	font-size:16px;	
+}
+
+
+/*
+
+
+div#messager {
+    background: url("../images/icon-msg.png") no-repeat scroll 20px top #E6C0C0;
+    border-bottom: 3px solid #DE7A7B;
+    border-top: 3px solid #DE7A7B;
+    color: #CC0000;
+    height: 30px;
+    margin-top: 12px;
+    width: 100%;
+	margin-left:-3px;
+}
+
+span.msg-error{
+    color: red;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+span.msg-success{
+    color: blue;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+span.msg-note{
+    color: yellow;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+*/

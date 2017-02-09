@@ -1,0 +1,137 @@
+@CHARSET "utf-8";
+
+.unitcenter{border: thin solid #B0B0B0;margin: 5px 0 0 0;background-color: #FFFFFF;}
+
+
+div.hcattitle-component {
+    background: url("../images/bg/bg-title-component.gif") repeat-x scroll 0 0 transparent;
+    height: 30px;
+    margin-top: -3px;
+	margin-left: -3px;
+    padding: 0;
+    width: 678px;
+}
+
+
+h2.title_component_other{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	padding:3px 0 0 15px;
+	margin:0;
+	color:#FFFFFF;
+}
+
+
+
+/**********contact*****************/
+
+
+p.title{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: inherit;
+}
+
+
+div.ja-component-section{
+	padding: 0;
+	margin: 0;
+}
+
+div.item-content{
+	padding: 0 15px;
+	font-size: 13px;	
+}
+
+
+p.item-title-bold{
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.line_dotted {
+	border-bottom: 1px dotted 
+	#999;
+	margin: 0;
+	padding: 0;
+}
+
+
+#form-contact {
+	color: black;
+	padding: 15px 10px;
+	margin: 0;
+}
+
+form, input {
+margin: 0;
+padding: 0;
+}
+
+
+div {
+display: block;
+}
+
+
+#form-contact label {
+float: left;
+font-weight: inherit;
+font-style: italic;
+width: 14em;
+margin: 10px 0 0;
+}
+
+#form-contact input {
+background: 
+white;
+color: 
+black;
+padding: 5px 2px ;
+margin: 10px 0 0;
+}
+
+#form-contact label.textarea {
+float: none !important;
+margin: 10px 0;
+display: block;
+width: 100%;
+}
+
+#form-contact #contact_text {
+width: 80%;
+height: 150px;
+}
+
+textarea {
+-webkit-appearance: textarea;
+background-color: 
+white;
+border: 1px solid;
+border-image: initial;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+-webkit-box-orient: vertical;
+resize: auto;
+cursor: auto;
+padding: 2px;
+white-space: pre-wrap;
+word-wrap: break-word;
+}
+
+input, textarea, keygen, select, button, isindex {
+margin: 0em;
+font: -webkit-small-control;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+line-height: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: -webkit-auto;
+}

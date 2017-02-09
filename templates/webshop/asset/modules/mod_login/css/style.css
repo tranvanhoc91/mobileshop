@@ -1,0 +1,145 @@
+@CHARSET "utf-8";
+
+div#userlogin {
+}
+
+
+div#userlogin #form-login p {
+	padding:0px 10px;
+}
+
+div#userlogin #form-login input{
+	border:1px solid #ccc;
+	padding:4px;
+}
+
+div#userlogin #form-login button.login{
+	margin: 0 30px;
+	cursor:pointer;
+	width:87px;
+	height:25px;
+	background:url(../images/login.gif) center center no-repeat transparent;
+}
+
+div#userlogin #form-login p.text-login{
+	text-align:left;
+}
+
+
+div#userlogin #form-login p.text-login span a,
+div#userlogin #form-login p.text-login span a:link,
+div#userlogin #form-login p.text-login span a:active{
+	text-decoration:none;
+	color:#000000 ;
+	height:15px;
+	width:16px;
+	padding-left:20px ;
+}
+
+div#userlogin #form-login p.text-login span a.itemregis,a.itemregis:link{
+	background:url(../images/info.jpg) scroll 0 0 transparent no-repeat;
+}
+div#userlogin #form-login p.text-login span a.itemreset{
+	background:url(../images/quen-mat-khau.jpg) scroll 0 0 transparent no-repeat;
+}
+
+div#userlogin #form-login p.text-login span a:hover{
+	text-decoration:none;
+	color:orange !important;
+}
+
+
+
+/* Dinh dang module login o vi tri ben phai */
+div.unitright #form-login input{
+	width:180px;	
+}
+
+/* Dinh dang module login o vi tri ben phai */
+div.unitleft #form-login input{
+	width:150px;	
+}
+
+/* Dinh dang module login o vi tri brub */
+
+
+
+
+/* Fomat user login success */
+p.show-username{
+	text-align:center;
+	font-size:16px;
+	padding:8px 0px;
+}
+
+p.show-username span{
+	font-size:20px;
+	color:red;
+	font-weight:bold;
+}
+
+p.user_lastvisit{
+	color:gray;
+	margin:0px 0px 10px 10px;
+}
+
+
+div#user-login-task{
+	text-align:left;
+	font-size:14px;
+	width:100%;
+}
+
+p.account-info,
+p.change-pwrd,
+p.user-logout{
+	margin-left:10px;
+	margin-bottom:0px;
+}
+
+p.user-logout{
+	padding-bottom:15px;
+}
+
+
+p.account-info {
+	background:url(../images/info-icon-blue.png) scroll left 0 transparent no-repeat;
+}
+
+p.change-pwrd {
+	background:url(../images/setting-16-icon.gif) scroll left 0 transparent no-repeat;
+}
+
+p.user-logout {
+	background:url(../images/logout-icon.png) scroll left 0 transparent no-repeat;
+}
+
+p.account-info ,
+p.change-pwrd ,
+p.user-logout {
+	padding: 0;
+}
+
+
+p.account-info a,
+p.change-pwrd a,
+p.user-logout a{
+	color:#000000 !important;
+	text-decoration:none;
+	padding:2px 0px 2px 20px;
+}
+
+p.account-info a:hover,
+p.change-pwrd a:hover,
+p.user-logout a:hover{
+	color:#00ff66;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+

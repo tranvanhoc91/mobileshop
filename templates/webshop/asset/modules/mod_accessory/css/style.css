@@ -1,0 +1,71 @@
+
+
+
+
+
+/*********unit left**************/
+
+.unitleft .menuLeft {
+    font-weight: bold;
+    margin: 0;
+    width: 168px;
+}
+
+
+.unitleft .menuLeft ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.unitleft .menuLeft li a {
+    height: 24px;
+    text-decoration: none;
+    
+}
+
+.unitleft .menuLeft li a:link, .menuLeft li a:visited {
+    background: url("../images/menuLeft.gif") repeat scroll 0px 0px transparent;
+    color: #888888;
+    display: block;
+    padding: 8px 0 0 30px;
+}
+.unitleft .menuLeft li a:hover, .menuLeft li a:active {
+    background: url("../images/menuLeft.gif") repeat scroll 0 32px transparent;
+    color: #283A50;
+    padding: 8px 0 0 30px;
+}
+
+
+/*********unit right**************/
+
+
+.unitright .unitleft .menuLeft {
+    font-weight: bold;
+    margin: 0;
+    width: 210px;
+}
+
+
+.unitright .menuLeft ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.unitright .menuLeft li a {
+    height: 24px;
+    text-decoration: none;
+}
+    
+.unitright .menuLeft li a:link, .menuLeft li a:visited {
+    background: url("../images/menuRight.gif") repeat scroll 0px 0px transparent;
+    color: #888888;
+    display: block;
+    padding: 8px 0 0 20px;
+}
+.unitright  .menuLeft li a:hover, .menuLeft li a:active {
+    background: url("../images/menuRight.gif") repeat scroll 0 32px transparent;
+    color: #283A50;
+    padding: 8px 0 0 20px;
+}

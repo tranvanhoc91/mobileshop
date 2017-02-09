@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modules type="footer">
+	<files>
+		<filename module="mod_footer">mod_footer.php</filename>
+	</files>
+	<params>
+		<name>Footer</name>
+		<copyright>Copyrights © 2012 MobileShop.com</copyright>
+		<author>Developed by Trần Văn Học</author>
+		<address>ĐC: 532D Xô Viết Nghệ Tĩnh,P.25,quận Bình Thạnh,TpHCM</address>
+		<email>Email: tranvanhoc.tb@gmail.com</email>
+		<phone>ĐT: 0983 940 965</phone>
+		<url>http://mobileshop.com</url>
+	</params>
+</modules>

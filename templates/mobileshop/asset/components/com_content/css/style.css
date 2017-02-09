@@ -1,0 +1,140 @@
+@CHARSET "UTF-8";
+
+/***************Layout : blog**********************/
+
+
+#main.grid-9 {
+width: 480px;
+padding: 0 10px 0 5px;
+}
+
+#main {
+margin: 0px;
+}
+
+div.node-teaser-view{
+	width: 650px;
+	height:auto;
+	#border: 1px solid #cccccc;
+	margin-left:10px;
+	text-align:justify;
+}
+
+div.node-teaser-content{
+	min-height: 50px;
+}
+
+div.panel-pane div.node-teaser, .today-top-feature .view-content .views-row, .node-teaser {
+	width: 650px;
+	border-bottom: 1px dotted #AAA;
+	padding: 17px 0 5px;
+	min-height: 80px;
+}
+
+
+h2.views-field-title a{
+	color: #333;
+	text-decoration: none;
+}
+
+h2.views-field-title a:hover{
+	color: #6EB8D7;
+	text-decoration: underline;
+}
+
+
+.today-top-feature .views-field-field-thumbnail-value img, .imagecache-istar-front-latest-articles {
+	border: 1px solid #CCC;
+	height: 78px;
+	width: 110px;
+	float: left;
+	margin-right: 10px;
+}
+
+.date {
+color: #666;
+font-family: serif;
+font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+/***************Layout : article -> chi tiet bai viet**********************/
+
+div.pane-content{
+	width: 650px;
+	height:auto;
+	#border: 1px solid #cccccc;
+	margin-left:10px;
+	text-align:justify;
+}
+
+
+div.panel-pane div.node {
+margin: 0;
+padding: 0;
+}
+
+.byline {
+	margin:10px 0px;
+	width:200px;
+	background: #EEE;
+	border-radius: 3px;
+	height: 28px;
+	line-height: 14px;
+	min-width: 128px;
+	padding: 4px 3px 4px 4px;
+	text-shadow: 0 1px 0 white;
+	font-size: 11px;
+}
+
+
+.byline img {
+float: left;
+margin-right: 4px;
+}
+
+a.username, a.username:hover {
+text-decoration: none;
+}
+
+.username.user-registered {
+color: #333;
+}
+
+.byline .date {
+margin: 1px 0 0;
+}
+
+.date {
+color: #666;
+font-family: serif;
+font-style: italic;
+}
+
+
+.node-title{
+	padding:10px 5px  0 0 ;
+}
+
+h2.title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+div.node-content img {
+	text-align: center !important;
+}
+
+div.content{
+	color:#000000;
+	font-size: 13px;
+}

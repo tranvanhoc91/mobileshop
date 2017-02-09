@@ -1,0 +1,102 @@
+@CHARSET "utf-8";
+
+
+/*********unit left**************/
+.unitleft .category {
+    width: 168px;
+    margin: 0px;
+}
+
+#category-content{
+	width:100%;
+}
+
+h3.title-category{
+	margin:0;
+	cursor: pointer;
+	background: url("../images/menuLeft.gif") repeat scroll 0px -1px transparent;
+    color: #888888;
+    display: block;
+     height: 21px;
+     padding: 5px  0 5px 30px;
+     border:none;
+}
+
+h3.title-category:hover, .h3.title-category:active {
+    background: url("../images/menuLeft.gif") repeat scroll 0 32px transparent;
+   color: #888888;
+}
+h3.title-category a{color: #888888;text-decoration:none; font-weight: normal;}
+h3.title-category a:hover{color: #c30300;text-decoration:underline;}
+
+.accordion {
+	padding: 0;
+	margin:0;
+	width:100%;
+}
+
+.accordion ul#menuList {
+	width:100%;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    height:auto;
+}
+
+.accordion ul#menuList li {
+	display:block;
+	background:none;
+	height:36px;
+	border-bottom:1px solid #dddddd;
+	margin:0;
+	padding:0 auto;
+}
+
+
+.accordion ul#menuList li a {
+    background:none;
+    text-decoration: none;
+   	height:22px;
+   	margin:0;
+   	padding:8px 5px 8px 10px;
+   	 font-weight:italic;
+}
+
+
+
+
+ ul#menuList li a:link, ul#menuList li a:visited {
+    color: #888888;
+    display: block;
+}
+.accordion ul#menuList li a:hover, ul#menuList li a:active {
+    background: url(../image/bg-li.png) scroll 0 0 repeat-x transparent;
+     color: #3883cc;
+     display: block;
+     height:36px;
+}
+
+
+
+.sub_mn_text {
+	 background: url("../image/icon_grey.jpg") no-repeat scroll 15px center transparent;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 4px 4px 4px 30px;
+}
+
+
+
+
+/*********unit right**************/
+
+.unitright .category {
+    font-weight: none;
+    width: 210px;
+    margin: 0px;
+}
+
+
+

@@ -1,0 +1,72 @@
+@CHARSET "utf-8";
+
+/*********Login***********/
+div#com_user_login{
+	margin:0 auto;
+	width:100%;
+	height:auto;
+
+}
+div#com_user_login table.tbl_user_login {
+	width:100%;
+	height:auto;
+	padding:50px 100px;
+}	
+
+table.tbl_user_login tr td{
+	padding:3px;
+}
+
+table.tbl_user_login input{
+	padding:2px;
+}
+	
+	
+	
+	
+/************Register********************/
+div#register,
+div#reset-password{
+	width:100%;
+	height:auto;
+	margin:20px ;
+}
+
+tr td.labeltext label{
+	color:#000000;
+	font-size:13px;
+}
+
+input#text-register,
+#inputtext {
+	width:250px;
+	height:28px;
+	margin-bottom:10px;
+}
+
+input#captcha{
+	width:120px;
+	height:28px;
+	margin-right:10px;
+}
+
+input#text-register:hover,
+input#captcha:hover{
+	background-color:#ffff99;
+}
+
+button.register,button.resetbtn { cursor:pointer;}
+
+div.btn-reset{
+	margin:30px 150px;
+}
+
+
+span.note{
+	color:gray;
+	font-size:14px;
+}
+
+
+
+

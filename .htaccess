@@ -1,0 +1,44 @@
+RewriteEngine on
+Options +FollowSymLinks
+RewriteBase /mobileshop
+# Rewrite to www
+ErrorDocument 400 http://localhost/mobileshop/errors/400.php
+ErrorDocument 401 http://localhost/mobileshop/errors/401.php
+ErrorDocument 403 http://localhost/mobileshop/errors/403.php
+ErrorDocument 404 http://localhost/mobileshop/errors/404.php
+ErrorDocument 500 http://localhost/mobileshop/errors/500.php
+
+# Link
+RewriteRule ^index.cn09a$ index.php$1 [L]
+RewriteRule ^trang-chu/([^/]*)$ index.php?option=com_product$1 [L]
+RewriteRule ^san-pham/([^/]*)$ index.php?option=com_product$1 [L]
+RewriteRule ^san-pham/([^/]*)/([^/]*)$ index.php?option=com_product&view=$1 [L]
+RewriteRule ^san-pham/([^/]*)/([^/]*)/([^/]*)$ index.php?option=com_product&view=$1&section=$2 [L]
+RewriteRule ^san-pham/([^/]*)/([^/]*)/([^/]*)/([^/]*)$ index.php?option=com_product&view=$1&section=$2&category=$3 [L]
+#chi tiet 1 san pham
+RewriteRule ^san-pham/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)$ index.php?option=com_product&view=$1&section=$2&category=$3&id=$4 [L]
+
+RewriteRule ^user/([^/]*)$ index.php?option=com_user$1 [L]
+RewriteRule ^user/([^/]*)/([^/]*)$ index.php?option=com_user&task=$1 [L]
+
+RewriteRule ^search/([^/]*)$ index.php?option=com_search$1 [L]
+
+RewriteRule ^cart/([^/]*)$ index.php?option=com_cart$1 [L]
+RewriteRule ^cart/([^/]*)/([^/]*)$ index.php?option=com_cart&task=detailcart$1 [L]
+RewriteRule ^cart.html$ index.php?option=com_cart&task=detailcart$1&act=$2 [L]
+
+RewriteRule ^order.html$ index.php?option=com_cart&task=order$1 [L]
+RewriteRule ^customer.html$ index.php?option=com_cart&task=order$1&layout=customer [L]
+
+
+RewriteRule ^tin-tuc/([^/]*)$ index.php?option=com_content&section=tin-tuc [L]
+RewriteRule ^tin-tuc/([^/]*)/([^/]*)$ index.php?option=com_content&section=tin-tuc&category=$1 [L]
+RewriteRule ^tin-tuc/([^/]*)/([^/]*)/([^/]*)/([^/]*)$ index.php?option=com_content&section=tin-tuc&category=$1&alias=$2&id=$3 [L]
+
+
+RewriteRule ^gioi-thieu/([^/]*)$ index.php?option=com_content&view=article&menuItem=gioi-thieu$1 [L]
+RewriteRule ^bao-hanh/([^/]*)$ index.php?option=com_content&view=article&menuItem=bao-hanh$1 [L]
+RewriteRule ^tuyen-dung/([^/]*)$ index.php?option=com_content&view=article&menuItem=tuyen-dung$1 [L]
+RewriteRule ^lien-he/([^/]*)$ index.php?option=com_contact$1 [L]
+
+RewriteRule ^poll.html$ index.php?option=com_poll$1 [L]

@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+
+.menuLeft {
+	width: 168px;
+	border: 0px solid #ccc;
+	margin: 0px;	
+	font-weight: bold;
+	}
+.menuLeft ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	}	
+.menuLeft li a {
+  	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	}	
+	
+.menuLeft li a:link, .menuLeft li a:visited {
+	color: #888;
+	display: block;
+	background: url(../images/bg/bg-hover-menu.gif);
+	padding: 8px 0 0 30px;
+	}
+	
+.menuLeft li a:hover, .menuLeft li a:active {
+	color: #283A50;
+	background:url(../images/bg/bg-hover-menu.gif) 0 -32px;
+	padding: 8px 0 0 30px;
+	}

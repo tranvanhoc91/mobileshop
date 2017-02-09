@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<modules type="support">
+<name>Module Support Online</name>	
+	<author>Tran Van Hoc</author>
+	<creationDate>April 11, 2011</creationDate> 
+	<description>Module co chuc nang hien thi nhung thong tin ho tro khach hang khi mua hang tren mang</description>
+	
+	<files>
+		<filename module="mod_support">mod_support.php</filename>
+	</files>
+	
+	<param>
+        <fullname>Mr.Thang</fullname>
+        <phone>0983940965</phone>
+        <nickname type="yahoo">trieugiathang_viponline_datinh</nickname>
+    </param>
+    <param>
+        <fullname>Mr.Nam</fullname>
+        <phone>0983 940 965</phone>
+        <nickname type="yahoo">trieugiathang_viponline_datinh</nickname>
+    </param>
+    <param>
+        <fullname>Mrs.Thuy</fullname>
+        <phone>0983 940 965</phone>
+        <nickname type="yahoo">trieugiathang_viponline_datinh</nickname>
+    </param>
+</modules>
+

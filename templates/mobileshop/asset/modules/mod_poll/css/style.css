@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+#form_poll{
+	padding:10px 0px;
+	width:100%;
+}
+
+h3.title_poll{
+	font-size:14px;
+	font-weight: bold;
+	color:#3383cc ;
+	text-align: center;
+}
+
+.sectiontableentry2{
+	padding:2px;
+}
+.vote_option{
+	font-size:14px;
+	color:#1d1e1c;
+}

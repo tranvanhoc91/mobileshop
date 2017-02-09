@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?> 
+<Banner 
+	bannerWidth="1080"
+	bannerHeight="160"
+
+	textSize="14"
+	textColor=""
+	textAreaWidth=""
+	textLineSpacing="0"	
+	textLetterSpacing="-0.5"	
+	textMarginLeft="12"
+	textMarginBottom="5"
+	
+	transitionType="5"
+	transitionDelayTimeFixed="2" 
+	transitionDelayTimePerWord=".5"
+	transitionSpeed="8"
+	transitionBlur="yes"
+	transitionRandomizeOrder="yes"	
+	
+	showTimerClock="yes"
+	showBackButton="no"
+	showNumberButtons="yes"
+	showNumberButtonsAlways="no"
+	showNumberButtonsHorizontal="no"
+	showNumberButtonsAscending="yes"
+	autoPlay="yes"
+	
+	>
+	
+	<item image="templates/mobileshop/images/banner/MYB_Banner1.jpg" 
+		link="#"
+		target="_blank"
+		textBlend="no"><![CDATA[MobileShop
+	]]></item>
+
+	<item image="templates/mobileshop/images/banner/MYB_Banner2.jpg"
+		link="#"
+		target="_blank"
+		textBlend="no"><![CDATA[Hệ thống ĐTDĐ chính hãng
+	]]></item>	
+
+	<item image="templates/mobileshop/images/banner/MYB_Banner3.jpg"
+		link="#"
+		target="_blank"
+		textBlend="yes"><![CDATA[MobileShop - Chuyên cung cấp các loại điện thoại di động chính hãng
+	]]></item>
+
+	<item image="templates/mobileshop/images/banner/MYB_Banner4.jpg"
+		link="#"
+		target="_blank"
+		textBlend="no"><![CDATA[ MobileShop - hội tụ những công nghệ di động hàng đầu thế giới
+	]]></item>
+</Banner>
+

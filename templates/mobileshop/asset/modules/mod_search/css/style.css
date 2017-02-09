@@ -1,0 +1,27 @@
+@CHARSET "utf-8";
+
+
+form#form-search{
+
+}
+
+div.search_item{
+	padding:10px 0 0 0 ;
+}
+
+input.fieldsearch{
+	padding:4px 0;
+	max-width:150px;
+}
+
+
+#btnserach{
+	padding: 15px 0;
+}
+
+button.button-search {
+	background: url(../images/btnSearch.png) no-repeat center center scroll;
+	height: 24px;
+	width: 81px;
+	cursor: pointer;
+}

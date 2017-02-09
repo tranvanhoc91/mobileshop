@@ -1,0 +1,49 @@
+div.content {
+    border: 3px solid #4488FF;
+    clear: left;
+    padding: 1em;
+}
+div.content.inactive {
+    display: none;
+}
+ol#toc {
+    height: 2em;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+ol#toc a {
+    background: url("tabs.gif") repeat scroll 0 0 #BBDDFF;
+    color: #000088;
+    display: block;
+    float: left;
+    height: 2em;
+    padding-left: 10px;
+    text-decoration: none;
+}
+ol#toc a:hover {
+    background-color: #33AAFF;
+    background-position: 0 -120px;
+}
+ol#toc a:hover span {
+    background-position: 100% -120px;
+}
+ol#toc li {
+    float: left;
+    margin: 0 1px 0 0;
+}
+ol#toc li a.active {
+    background-color: #4488FF;
+    background-position: 0 -60px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+ol#toc li a.active span {
+    background-position: 100% -60px;
+}
+ol#toc span {
+    background: url("tabs.gif") repeat scroll 100% 0 transparent;
+    display: block;
+    line-height: 2em;
+    padding-right: 10px;
+}

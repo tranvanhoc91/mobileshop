@@ -1,0 +1,32 @@
+div.emptycart,div.showcart{
+	width:120px;
+	height:120px;
+	background:url(../images/cart_empty.gif) center center scroll no-repeat transparent;
+	padding-left:40px;
+	padding-bottom:10px;
+	padding-top:-10px;
+}
+
+div.emptycart{
+	background:url(../images/cart_empty.gif) center center scroll no-repeat transparent;
+}
+
+div.showcart{
+	background:url(../images/cart_product.gif) center center scroll no-repeat transparent;
+}
+
+p.status{
+	padding-top:90px;
+	float:right;
+	padding-right:20px;
+}
+
+a.cart{
+	text-decoration:none;
+	color:red;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+a

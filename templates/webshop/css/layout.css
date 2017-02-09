@@ -1,0 +1,106 @@
+/* ########################### contacts ########################### */
+div.contact {
+margin:10px 0;
+}
+
+address {
+font-style:normal;
+margin:10px 0;
+}
+
+address p {
+line-height:1em;
+}
+
+.contact label {
+float:left;
+font-weight:bold;
+width:14em;
+margin:10px 0 0;
+}
+
+span.marker {
+margin:0 10px 0 0;
+}
+
+.contact_email_checkbox label {
+float:none !important;
+}
+
+.contact label.copy {
+width:90%;
+padding:0 0 0 10px;
+}
+
+.contact form {
+
+color:#000;
+padding:5px;
+margin:0;
+}
+
+.contact input {
+background:#fff;
+color:#000;
+padding:2px 2px 0;
+margin:10px 0 0;
+}
+
+.contact .button {
+background:url(../images/pfeil.gif) #000 no-repeat;
+border:0;
+color:#fff;
+font-weight:bold;
+margin:20px 10px 0 0;
+padding: 0 27px;
+cursor:pointer;
+}
+
+label.textarea {
+float:none !important;
+margin:10px 0;
+display:block;
+width:100%;
+}
+
+#contact_text {
+width:80%;
+height:150px;
+}
+
+.contact input.invalid,.contact textarea.invalid {
+border:solid 2px red;
+}
+
+.contact label.invalid {
+color:red;
+}
+
+/*////////////////////////////////Pagination//////////////////////////////////////*/
+ul.pagination {
+	text-align:center;
+	margin: 0 auto;
+	padding: 5px 0;
+	background: url(../images/hdot.gif) repeat-x top;
+}
+
+ul.pagination li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	background: none;
+}
+
+ul.pagination li span{
+	padding: 2px 5px;
+}
+
+ul.pagination a {
+	padding: 2px ;
+	border: 1px solid #F6F6F6;
+}
+
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus {
+	border: 1px solid #ECECEC;
+	background: #FFFFFF;
+}

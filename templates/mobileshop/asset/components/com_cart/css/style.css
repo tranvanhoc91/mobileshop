@@ -1,0 +1,135 @@
+
+
+div#detailcart{
+	width:100%;
+	height:auto;
+	padding-top:-20px;
+}
+
+form#formdetailcart{
+}
+
+table.tbldetailcart{
+	width:95%;
+	font-size:14px;
+	color:#111111;
+	margin:20px auto;
+}
+
+table.tbldetailcart thead{
+	background:#beffec;
+}
+
+table.tbldetailcart tr td,th{
+	border:1px solid #cccddd;
+	padding:3px 0;
+}
+
+table.tbldetailcart tr td.title{
+	padding-left:5px;
+}
+
+a.icon-delete{
+	width:16px;
+	height:16px;
+	background:url(../images/icon-delete.png) center center scroll no-repeat transparent;
+}
+a.icon-delete:hover{
+	cursor:pointer;
+}
+
+table.tbldetailcart tr td.cart-info{
+	padding:10px 0 10px 15px;
+}
+
+table.tbldetailcart tr td.cart-info div{
+	padding:2px;
+}
+
+div.msg-left{
+	float:left;
+	width:40%;
+	padding-left:5px;
+	font-size:12px;
+	font-style:italic;
+}
+
+div.button-cart{
+	float:right;
+	padding:0px 20px 30px 0;
+}
+
+div.button-cart button{
+	cursor:pointer;
+}
+
+a.order-continue{
+	text-decoration:none;
+	color:#000000;	
+}
+
+
+/***************Empty Cart*******************/
+
+div.error-cart{
+	width:100%;
+	height:auto;
+	font-size:18px;
+}
+
+div.error-cart-content{
+	width:272px;
+	height:269px;
+	margin:0 auto;
+	padding:15px;
+	background:url(../images/empty-cart.png) center center scroll no-repeat transparent;
+}
+div.errortext{
+	clear:both;
+	text-align:center;
+	padding:20px;
+}
+
+
+
+/**************Thông báo đặt hàng*****************/
+
+div.order_massage{
+	padding:50px 10px 30px 50px;
+}
+
+
+div.order_massage a{
+	text-decoration:none;
+	color:#ff0066;
+}
+
+
+div.order_massage a:hover{
+	text-decoration:underline;
+}
+
+
+/**************Thông tin khách hàng*************************/
+
+b.sao_red{
+	color:red;	
+}
+
+
+form#form-order{
+	padding:30px 10px;
+}
+
+
+fieldset.fieldsCollection{
+	border:1px solid #cccccc;
+	margin:10px 0px;
+}
+
+
+
+
+
+
+

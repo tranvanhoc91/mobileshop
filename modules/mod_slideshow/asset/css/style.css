@@ -1,0 +1,4 @@
+@CHARSET "utf-8";
+
+.neoslideshow {position:relative; width:680px; height:260px;border-bottom: 3px solid #ddd000;}
+.neoslideshow img {position:absolute;left:0; top:0;}

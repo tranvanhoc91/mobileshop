@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE categories SYSTEM "mobileshop/admin/data/categories.dtd" >
+<categories>
+	<category id="1" published="1" access="0" ordering="1" >
+	    <title>Nokia</title>
+	    <alias>nokia</alias>
+	    <description>Hang dien thoai nokia</description>
+	</category>
+	<category id="2" published="1" access="0" ordering="1" >
+	    <title>LG</title>
+	    <alias>lg</alias>
+	    <description>Cac dong san pham binh dan</description>
+	</category>   
+	<category id="3" published="1" access="0" ordering="1" >
+	    <title>HTC</title>
+	    <alias>htc</alias>
+	    <description>Cac dong san pham loai C cua nokia</description>
+	</category> 
+	<category id="4" published="1" access="0" ordering="1" >
+	    <title>Sony</title>
+	    <alias>sony</alias>
+	    <description>Cac dong san pham loai X cua nokia</description>
+	</category> 
+	
+	<category id="5" access="0" ordering="1" >
+	    <title>Sam Sung</title>
+	    <alias>sam-sung</alias>
+	    <description>Cac dong san pham loai sam-sung</description>
+	</category> 
+	<category id="6"  published="1" access="0" ordering="1" >
+	    <title>Iphone</title>
+	    <alias>iphone</alias>
+	    <description>Cac dong san pham iphone</description>
+	</category> 
+	<category id="7" published="1" access="0" ordering="1" >
+	    <title>Q-Mobile</title>
+	    <alias>q-mobile</alias>
+	    <description>Cac dong san pham iphone</description>
+	</category> 
+	<category id="8" published="1" access="0" ordering="1" >
+	    <title>K-Touch</title>
+	    <alias>k-touch</alias>
+	    <description>Cac dong san pham iphone</description>
+	</category> 
+</categories>

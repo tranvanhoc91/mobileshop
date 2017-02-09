@@ -1,0 +1,108 @@
+@CHARSET "utf-8";
+/*----Dinh dang cho pagination for admin page-------*/
+div.pagination {
+    width:625px;
+    clear:both;
+    padding:10px 0 10px 0;
+    margin:0px;
+    text-align:center;
+    float:left;
+    clear:both;
+    font-size:11px;
+}
+
+div.pagination a {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #52bfea;
+    text-decoration: none; 
+    color: #000000;
+}
+div.pagination a:hover, div.pagination a:active {
+    border:1px solid #52bfea;
+    color: #fff;
+    background-color: #52bfea;
+}
+div.pagination span.current {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #52bfea;
+    font-weight: bold;
+    background-color: #52bfea;
+    color: #FFF;
+}
+div.pagination span.disabled {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #f3f3f3;
+    color: #ccc;
+}
+
+
+
+
+/*----Dinh dang cho pagination for div.pagination-default  trong ham paginationDefault,paginationByCategory,paginationFrontpage -------*/
+
+div.pagination-default  {
+    text-align:center ;
+    clear:both;
+    padding:10px 0 10px 0;
+    margin-top:10px;
+    font-size:14px;
+}
+
+div.pagination-default  a {
+    text-decoration: none; 
+    color: #3883cc	;
+	border:1px solid #cccccc;
+	margin:0 5px;
+	padding:5px 8px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+div.pagination-default  a:hover, div.pagination-default  a:active {
+    color: #FF0066;
+}
+
+a.img-previous,a.img-next{
+	width:16px;
+	height:16px;
+}
+a.img-previous {
+	background:url(../images/icon-16-previous.png) center center scroll no-repeat transparent;
+}
+
+a.img-next {
+	background:url(../images/icon-16-next.png) center  center scroll no-repeat transparent;
+}
+
+div.pagination-default  span.current {
+    font-weight: bold;
+    color: #cccccc;
+	border:1px solid #cccccc;
+	margin:0 5px;
+	padding:5px 8px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:5px;
+}
+div.pagination-default  span.disabled {
+    padding: 2px;
+}
+
+div.pagination-default  span.disabled  a{
+   width:12px;
+   height:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
