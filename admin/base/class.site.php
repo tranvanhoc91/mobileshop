@@ -108,14 +108,15 @@ class SiteDocument {
 	
 	//neu lam tot la phai lay tu trong config
 	function setDescription($desc = ''){
-		if ($desc)
+		if ($desc){
 			$this->_description	=	$desc;
-		else 
+		}else {
 			$this->_description = Config::$description;
+		}
 	}
 	
 	function setKeywords($keyword = ''){
-		if ($desc)
+		if ($keyword)
 			$this->_keyword	=	$keyword;
 		else
 			$this->_keyword = Config::$keyword;
@@ -333,33 +334,6 @@ class SiteDocument {
 		return $pos;	
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

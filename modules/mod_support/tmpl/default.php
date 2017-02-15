@@ -9,7 +9,7 @@ require_once (MODULE.'/mod_support/mod_support.php');
 			<div class="line">
 				<p>
 					<a><center>
-						<img src="http://opi.yahoo.com/online?u=<?php echo $param->getElementsByTagName('nickname')->item(0)->nodeValue; ?>&amp;m=g&amp;t=2"></center>
+						<img src="modules/mod_support/assign/images/skype-128.png?u=<?php echo $param->getElementsByTagName('nickname')->item(0)->nodeValue; ?>&amp;m=g&amp;t=2"></center>
 					</a>
 				</p>
 				<p>

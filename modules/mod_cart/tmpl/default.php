@@ -19,14 +19,6 @@ require_once (MODULE.'/mod_cart/mod_cart.php');
 	?>
 	</div> 
 </div>  
-
-
-
-
 <?php
+//$shoppingcart .= '</div>';
 
-
-
-
-$shoppingcart .= '</div>';
-	

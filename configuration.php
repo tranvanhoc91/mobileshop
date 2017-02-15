@@ -8,7 +8,7 @@ class Config{
 	static $dbtype = 'mysql';
 	static $host = 'localhost';
 	static $user = 'root';
-	static $password = '';
+	static $password = 'iwatani';
 	static $db = 'db_mobileshop';
 	/* Server Settings */
 	static $gzip = '1';
@@ -37,4 +37,7 @@ class Config{
 	static $cachetime = '15';
 	static $cache_handler = 'file';
 	
+	//static $path = "mobileshop";
+	static $root		=	'mobileshop';
+	static $path	=	'http://localhost/mobileshop/';
 }

@@ -31,7 +31,12 @@ require_once 'libraries/functions/system-message.php';
 
 
 $dbo = new Database();
+
+
 $uo = new User();
+
+		
+		
 
 /* $uid = $uo->get();
 
@@ -46,21 +51,6 @@ if($format=='json') {
 }
 else $siteDocument = new SiteDocument();
 echo $siteDocument->render();
-
-
-if(!$QUERY_STRING) {
-	// sử dụng điều kiện này để tiếp tục dùng
-	//đường dẫn kiểu truy vấn.
-	$url=strip_tags($REQUEST_URI);
-	$url_array=explode("/",$url);
-	// vì chúng ta sử dụng $REQUEST_URI nên $url_array luôn có giá trị đầu rỗng
-	// sử dụng array_shift() để cắt giá trị đầu tiên
-	array_shift($url_array);
-	// gán các giá trị tương ứng lấy từ đường dẫn ảo
-	$_REQUEST[view] = $url_array[0];
-}
-
-
 
 
 ?>

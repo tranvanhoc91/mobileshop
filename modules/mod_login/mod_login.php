@@ -7,7 +7,7 @@ $loginObject = new modLoginHelper();
 $modTitle = $loginObject->getTitleModule();
 $modPositon = $loginObject->getPositionModule();
 @session_start();
-	if ($_SESSION['user']){
+	if ($_SESSION['user'] == true){
 		$uTokent = $loginObject->getUserToken($_SESSION['user']->id);
 		
 		$ulogin .= '<p class="show-username">Xin chào <span>'.ucfirst($_SESSION['user']->username).'</span>!</p>';

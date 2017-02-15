@@ -9,7 +9,7 @@ require_once (MODULE.'/mod_search/mod_search.php');
 		<form id="form-search" name="form-search-product" action="index.php?option=com_search" method="get">
         	<input type="hidden" name="option" value="com_search" />
         	<div align="center" class="search_item">
-        		<input class="fieldsearch" type="text" name="keyword" value="<? if ($keyword) echo $keyword; else echo 'Từ khóa tìm kiếm'; ?>" onfocus="if(this.value=='Từ khóa tìm kiếm')
+        		<input class="fieldsearch" type="text" name="keyword" onfocus="if(this.value=='Từ khóa tìm kiếm')
 {this.value=''};" onblur="if(this.value==''){this.value='Từ khóa tìm kiếm'};"/>
 			</div>
         	<div align="center" class="search_item">

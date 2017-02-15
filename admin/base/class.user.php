@@ -33,6 +33,7 @@ class User {
 				$this->_password = $_SESSION['user']->password;
 	            $this->_user_id = $_SESSION['user']->id;
 		}
+		
 	}
 /***************************************************************************/
 /***************************************************************************/
@@ -471,7 +472,7 @@ class User {
 	 */
 	function get(){
 		@session_start();
-		return $_SESSION['user']->id;
+		//return $_SESSION['user']->id;
 	}
 	
 	/**
